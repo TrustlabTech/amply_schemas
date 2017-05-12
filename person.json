@@ -1,0 +1,22 @@
+{
+	"@context": {
+		"id": "@id",
+		"type": "@type",
+		"amply": "http://schema.amply.tech/person/",
+		"so": "http://schema.org/",
+		"lastName": "so:familyName",
+		"firstName": "so:givenName",
+		"title": "so:honorificPrefix",
+		"nationality": "so:nationality",
+		"birthPlace": "so:birthPlace",
+		"birthDate": "so:birthDate",
+		"alias": "so:alias",
+		"avatar": "amply:avatar",
+		"identityPhotograph": "cn:identityPhotograph",
+		"maritalStatus": "cn:maritalStatus",
+		"maritalContractType": "cn:maritalContractType",
+		"preferredLanguage": "cn:preferredLanguage",
+		"createdDate": "cn:createdDate",
+		"modifiedDate": "cn:modifiedDate"
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "http://www.schema.org",
+  "@type": "ChildCare",
+  "name": "Ithemba ECD Centre",
+  "url": "www.test.com",
+  "logo": "http://www.test.com/logo",
+  "image": "http://www.test.com/image",
+  "description": "This is a sample JSON-LD schema for an educational business (ECD Centre)",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 ECD Street",
+    "postOfficeBoxNumber": "PO Box 1234",
+    "addressLocality": "Cape Town",
+    "addressRegion": "Western Cape",
+    "postalCode": "7985",
+    "addressCountry": "South Africa"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-31.xxxx",
+    "longitude": "18.xxxx"
+  },
+  "hasMap": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.39206180291!2d18.426985315236184!3d-33.93104298063918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDU1JzUxLjgiUyAxOMKwMjUnNDUuMCJF!5e0!3m2!1sen!2sza!4v1490272510381\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+  "openingHours": "Mo, Tu, We, Th, Fr 08:00-17:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+27xxxxxxxxx",
+    "contactType": "Mobile Number"
+  }
+}

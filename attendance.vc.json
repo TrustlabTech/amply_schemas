@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://w3id.org/identity/v1",
+    "https://w3id.org/security/v1",
+	  "https://schema.amply.tech/v1"
+  ],
+  "id": "http://example.gov/credentials/3732",
+  "type": ["Credential", "AttendanceCredential"],
+  "issuer": "did_of_ecd_centre",
+  "issued": "2017-03-22",
+  "claim": {
+    "id": "did_of_ecd_practitioner",
+    "deliveredService": {
+      "type": "EducationEvent",
+      "practitioner": "did_ecd_practitioner"
+      "attendee": {
+        "type": "Person",
+        "id": "did_child",
+        "date": "createdDate",
+        "attended": [ true, false ],
+      },
+      "geo": {
+        "type": "GeoCoordinates",
+        "latitude": "-31.xxxx",
+        "longitude": "18.xxxx"
+      },
+    },
+  },
+  "signature": {
+    "type": "LinkedDataSignature2015",
+    "created": "2017-03-22T21:10:38Z",
+    "creator": "https://example.com/did_of_ecd_practitioner/keys/1",
+    "domain": "json-ld.org",
+    "nonce": "6165d7e8",
+    "signatureValue": "g4j9UrpHM4/uu32NlTw0HDaSaYF2sykskfuByD7UbuqEcJIKa+IoLJLrLjqDnMz0adwpBCHWaqqpnd47r0NKZbnJarGYrBFcRTwPQSeqGwac8E2SqjylTBbSGwKZkprEXTywyV7gILlC8a+naA7lBRi4y29FtcUJBTFQq4R5XzI="
+  }
+}

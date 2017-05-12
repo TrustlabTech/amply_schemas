@@ -1,0 +1,16 @@
+{
+	"@context": {
+		"id": "@id",
+		"type": "@type",
+		"amply": "http://schema.amplysnt.io/",
+		"identificationType": "so:identificationType",
+		"identificationNumber": "so:identificationNumber",
+		"issuingCountry": "so:issuingCountry",
+		"dateIssued": "so:dateIssued",
+		"expiryDate": "so:expiryDate",
+		"categoryType": "so:categoryType",
+		"endorsements": "so:endorsements",
+		"createdDate": "amply:createdDate",
+		"modifiedDate": "amply:modifiedDate"
+	}
+}

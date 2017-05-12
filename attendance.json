@@ -1,0 +1,27 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "Attendance",
+    "@id": "did_ecd_centre",
+    "@graph": [
+		{
+          "@type": "Amply:Person",
+  			"@id": "did_child",
+            "date": "createdDate",
+  			"attended": [ true, false ],
+          "practitioner": "did_ecd_practitioner"
+		},
+		{
+  			"@type": "Amply:Person",
+  			"@id": "did_child",
+            		"date": "createdDate",
+  			"attended": [ true, false ],
+          "practitioner": "did_ecd_practitioner"
+		}
+		],
+  	"geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-31.xxxx",
+    "longitude": "18.xxxx"
+  	},
+    "createdDate": "createdDate"
+}
