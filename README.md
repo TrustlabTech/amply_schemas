@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/TrustlabTech/amply_schemas.png?label=ready&title=Ready)](https://waffle.io/TrustlabTech/amply_schemas?utm_source=badge)
 # amply_schemas
 Schema collection for Amply
 
