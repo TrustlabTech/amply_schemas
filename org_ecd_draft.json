@@ -25,13 +25,13 @@
             "longitude": ""
           }
         }
-      }, // should be an AttendanceObject
+      },
       "signature": {
         "type": "LinkedDataSignature2015",
         "created": "",
         "creator": "https://example.com/did_of_ecd_practitioner/keys/1",
         "domain": "json-ld.org",
-        "nonce": "6165d7e8", // TODO: find out what this is about
+        "nonce": "6165d7e8",
         "signatureValue": ""
       },
     }
