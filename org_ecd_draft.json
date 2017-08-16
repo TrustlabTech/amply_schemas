@@ -17,7 +17,7 @@
         "type": "Person",
         "id": "did_child",
         "date": "",
-        "attended": false,
+        "attended": false
       },
       "geo": {
         "type": "GeoCoordinates",
@@ -33,5 +33,5 @@
     "domain": "json-ld.org",
     "nonce": "6165d7e8",
     "signatureValue": ""
-  },
+  }
 }
