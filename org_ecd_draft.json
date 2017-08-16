@@ -1,0 +1,37 @@
+{
+      "@context": [
+        "https://w3id.org/identity/v1",
+        "https://w3id.org/security/v1",
+        "https://w3id.org/amply/v1"
+      ],
+      "id": "http://example.gov/credentials/3732",
+      "type": ["Credential", "AttendanceCredential"],
+      "issuer": "did_ecd_centre",
+      "issued": "",
+      "claim": {
+        "id": "did_ecd_practitioner",
+        "deliveredService": {
+          "type": "EducationEvent",
+          "practitioner": "did_ecd_practitioner",
+          "attendees": {
+            "type": "Person",
+            "id": "did_child",
+            "date": "",
+            "attended": false,
+          },
+          "geo": {
+            "type": "GeoCoordinates",
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      }, // should be an AttendanceObject
+      "signature": {
+        "type": "LinkedDataSignature2015",
+        "created": "",
+        "creator": "https://example.com/did_of_ecd_practitioner/keys/1",
+        "domain": "json-ld.org",
+        "nonce": "6165d7e8", // TODO: find out what this is about
+        "signatureValue": ""
+      },
+    }
